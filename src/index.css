@@ -1,0 +1,43 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  
+}
+.start{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  color: white;
+  background-color: green;
+  margin: 20px;
+  cursor: pointer;
+}
+.stop{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+  margin: 20px;
+  cursor: pointer;
+}
+.reset{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  color: white;
+  background-color: orange;
+  margin: 20px;
+  cursor: pointer;
+}
+.start:disabled{
+  background-color: gray;
+}
+.stopwatch{
+  background-color: black;
+  color: white;
+}
